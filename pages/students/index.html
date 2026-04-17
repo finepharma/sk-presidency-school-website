@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Portal - Access Resources, Results, and Assignments at SK Presidency">
+    <title>Student Portal - SK Presidency Public School</title>
+    
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/components.css">
+    <link rel="stylesheet" href="../../assets/css/animations.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="../../assets/images/logo/school-logo.png" alt="SK Presidency School Logo" class="logo">
+                <div class="school-info">
+                    <h2 class="school-name">SK Presidency</h2>
+                    <p class="school-tagline">Excellence in Education</p>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="../../index.html" class="nav-link">Home</a>
+                
+                <div class="nav-dropdown">
+                    <button class="nav-link dropdown-btn">About ▼</button>
+                    <div class="dropdown-content">
+                        <a href="../../pages/about/index.html">About School</a>
+                        <a href="../../pages/about/principal-message.html">Principal Message</a>
+                        <a href="../../pages/about/vision-mission.html">Vision & Mission</a>
+                    </div>
+                </div>
+                
+                <a href="../../pages/academics/index.html" class="nav-link">Academics</a>
+                <a href="../../pages/admissions/index.html" class="nav-link">Admissions</a>
+                <a href="../../pages/facilities/index.html" class="nav-link">Facilities</a>
+                <a href="index.html" class="nav-link">Students</a>
+                <a href="../../pages/career/index.html" class="nav-link">Career</a>
+                <a href="../../pages/contact/index.html" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="hamburger" id="hamburger">☰</button>
+        </div>
+    </nav>
+
+    <!-- ========== BREADCRUMB ========== -->
+    <section style="background-color: #f5f7fa; padding: 1rem 0;">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item active">Student Portal</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section style="background: linear-gradient(135deg, #1a3c6e 0%, #2196f3 100%); color: white; padding: 3rem 0; text-align: center;">
+        <div class="container">
+            <h1 class="animate-fade-in" style="color: white; margin-bottom: 1rem;">Student Portal</h1>
+            <p class="animate-fade-in-delayed" style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.9);">
+                Your Gateway to Academic Excellence
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== LOGIN SECTION ========== -->
+    <section style="padding: 3rem 0;">
+        <div class="container">
+            <div style="max-width: 500px; margin: 0 auto;">
+                <div class="card reveal" style="border-left: 4px solid #f0a500;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #f0a500 0%, #ffc107 100%);">
+                        <h3 style="margin: 0; color: white;">🔐 Student Login</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="studentLoginForm" style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div class="form-group">
+                                <label class="form-label required">Roll Number</label>
+                                <input type="text" class="form-input" placeholder="Enter your roll number" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label required">Password</label>
+                                <input type="password" class="form-input" placeholder="Enter your password" required>
+                            </div>
+                            
+                            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                                <button type="submit" class="btn btn-primary" style="flex: 1;">Login</button>
+                                <button type="reset" class="btn btn-secondary" style="flex: 1;">Reset</button>
+                            </div>
+                            
+                            <p style="text-align: center; color: #6c757d; font-size: 0.9rem; margin-top: 1rem;">
+                                Default password: Student's DOB (DDMMYYYY)
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Forgot Password -->
+                <div style="text-align: center; margin-top: 1rem;">
+                    <p style="color: #6c757d; margin-bottom: 0.5rem;">Forgot your password?</p>
+                    <p style="color: #6c757d; font-size: 0.9rem; margin: 0;">
+                        Contact school office or email: office@skpresidency.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STUDENT RESOURCES ========== -->
+    <section style="background-color: #f5f7fa; padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: #1a3c6e; margin-bottom: 2rem;">Student Resources</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <!-- Study Resources -->
+                <div class="card reveal" style="border-left: 4px solid #2196f3;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #2196f3 0%, #64b5f6 100%);">
+                        <h3 style="margin: 0; color: white;">📚 Study Resources</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            Access comprehensive study materials, notes, and reference books for all subjects.
+                        </p>
+                        <a href="study-resources.html" class="btn btn-primary" style="width: 100%; text-align: center;">View Resources</a>
+                    </div>
+                </div>
+
+                <!-- Results Portal -->
+                <div class="card reveal" style="border-left: 4px solid #28a745;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #28a745 0%, #66bb6a 100%);">
+                        <h3 style="margin: 0; color: white;">📊 Results</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            Check your academic performance and download result cards.
+                        </p>
+                        <a href="results.html" class="btn btn-primary" style="width: 100%; text-align: center;">Check Results</a>
+                    </div>
+                </div>
+
+                <!-- Assignments -->
+                <div class="card reveal" style="border-left: 4px solid #dc3545;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #dc3545 0%, #e57373 100%);">
+                        <h3 style="margin: 0; color: white;">✏️ Assignments</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            Download assignments, submit work, and track deadlines.
+                        </p>
+                        <a href="assignments.html" class="btn btn-primary" style="width: 100%; text-align: center;">View Assignments</a>
+                    </div>
+                </div>
+
+                <!-- Class Notes -->
+                <div class="card reveal" style="border-left: 4px solid #f0a500;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #f0a500 0%, #ffc107 100%);">
+                        <h3 style="margin: 0; color: white;">📖 Class Notes</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            Access detailed class notes prepared by teachers for all subjects.
+                        </p>
+                        <a href="../../pages/academics/study-material.html" class="btn btn-primary" style="width: 100%; text-align: center;">Download Notes</a>
+                    </div>
+                </div>
+
+                <!-- Time Table -->
+                <div class="card reveal" style="border-left: 4px solid #17a2b8;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #17a2b8 0%, #4dd0e1 100%);">
+                        <h3 style="margin: 0; color: white;">⏰ Time Table</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            View class schedule and exam time tables.
+                        </p>
+                        <a href="../../pages/academics/time-table.html" class="btn btn-primary" style="width: 100%; text-align: center;">View Schedule</a>
+                    </div>
+                </div>
+
+                <!-- Important Info -->
+                <div class="card reveal" style="border-left: 4px solid #6f42c1;">
+                    <div class="card-header" style="background: linear-gradient(135deg, #6f42c1 0%, #9c27b0 100%);">
+                        <h3 style="margin: 0; color: white;">ℹ️ Important Info</h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: #6c757d; margin-bottom: 1rem;">
+                            School rules, regulations, and important announcements.
+                        </p>
+                        <a href="../../pages/about/index.html" class="btn btn-primary" style="width: 100%; text-align: center;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ANNOUNCEMENTS ========== -->
+    <section style="padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: #1a3c6e; margin-bottom: 2rem;">Important Announcements</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                <div class="notice-card reveal">
+                    <div class="notice-date">
+                        <span class="date-day">17</span>
+                        <span class="date-month">Apr</span>
+                    </div>
+                    <div class="notice-content">
+                        <h4>Mid-Term Exams Schedule Released</h4>
+                        <p>Mid-term examination schedule is now available on the portal. Start your preparation!</p>
+                        <a href="#" class="notice-link">View Details →</a>
+                    </div>
+                </div>
+
+                <div class="notice-card reveal">
+                    <div class="notice-date">
+                        <span class="date-day">15</span>
+                        <span class="date-month">Apr</span>
+                    </div>
+                    <div class="notice-content">
+                        <h4>Sports Day Registrations Open</h4>
+                        <p>Register for Annual Sports Day events. Limited slots available. Register now!</p>
+                        <a href="../../pages/facilities/sports.html" class="notice-link">Register Now →</a>
+                    </div>
+                </div>
+
+                <div class="notice-card reveal">
+                    <div class="notice-date">
+                        <span class="date-day">12</span>
+                        <span class="date-month">Apr</span>
+                    </div>
+                    <div class="notice-content">
+                        <h4>Study Materials Updated</h4>
+                        <p>New study materials and reference books have been added to the portal.</p>
+                        <a href="study-resources.html" class="notice-link">Access Materials →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section style="background-color: #f5f7fa; padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: #1a3c6e; margin-bottom: 2rem;">Portal Features</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Access</h3>
+                    <p>Password-protected portal ensures your information is safe and secure.</p>
+                </div>
+
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access your portal from any device - computer, tablet, or smartphone.</p>
+                </div>
+
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-Time Updates</h3>
+                    <p>Get instant notifications for assignments, results, and announcements.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">📊</div>
+                    <h3>Performance Analytics</h3>
+                    <p>Track your academic progress with detailed performance metrics.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">💬</div>
+                    <h3>Teacher Communication</h3>
+                    <p>Send messages and stay connected with your teachers.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">📥</div>
+                    <h3>Download Resources</h3>
+                    <p>Download study materials, assignments, and documents for offline access.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content reveal">
+                <h2>Maximize Your Learning</h2>
+                <p>Use the student portal to access all resources and track your progress</p>
+                <a href="#" onclick="document.getElementById('studentLoginForm').scrollIntoView({behavior: 'smooth'})" class="btn btn-primary btn-large">Login to Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About School</h4>
+                    <p>SK Presidency Public School is dedicated to providing quality education and holistic development of students from Nursery to XII.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">f</a>
+                        <a href="#" class="social-link" title="Twitter">𝕏</a>
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="YouTube">▶</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../../pages/about/index.html">About Us</a></li>
+                        <li><a href="../../pages/admissions/index.html">Admissions</a></li>
+                        <li><a href="index.html">Student Portal</a></li>
+                        <li><a href="../../pages/contact/index.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><strong>📍 Address:</strong><br>Odara, Sultanpur, UP 228001</p>
+                    <p><strong>📞 Phone:</strong><br>+91-8601735757</p>
+                    <p><strong>📧 Email:</strong><br>office@skpresidency.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Downloads</h4>
+                    <ul>
+                        <li><a href="../../assets/documents/prospectus.pdf" download>📄 Prospectus</a></li>
+                        <li><a href="study-resources.html">📋 Study Materials</a></li>
+                        <li><a href="results.html">📊 Results</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SK Presidency Public School. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/animations.js"></script>
+</body>
+  </html>
