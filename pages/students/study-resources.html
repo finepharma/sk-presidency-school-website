@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study Resources - Learning Materials for Students at SK Presidency">
+    <title>Study Resources - SK Presidency Public School</title>
+    
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/components.css">
+    <link rel="stylesheet" href="../../assets/css/animations.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="../../assets/images/logo/school-logo.png" alt="SK Presidency School Logo" class="logo">
+                <div class="school-info">
+                    <h2 class="school-name">SK Presidency</h2>
+                    <p class="school-tagline">Excellence in Education</p>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="../../index.html" class="nav-link">Home</a>
+                
+                <div class="nav-dropdown">
+                    <button class="nav-link dropdown-btn">About ▼</button>
+                    <div class="dropdown-content">
+                        <a href="../../pages/about/index.html">About School</a>
+                        <a href="../../pages/about/principal-message.html">Principal Message</a>
+                        <a href="../../pages/about/vision-mission.html">Vision & Mission</a>
+                    </div>
+                </div>
+                
+                <a href="../../pages/academics/index.html" class="nav-link">Academics</a>
+                <a href="../../pages/admissions/index.html" class="nav-link">Admissions</a>
+                <a href="../../pages/facilities/index.html" class="nav-link">Facilities</a>
+                <a href="index.html" class="nav-link">Students</a>
+                <a href="../../pages/career/index.html" class="nav-link">Career</a>
+                <a href="../../pages/contact/index.html" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="hamburger" id="hamburger">☰</button>
+        </div>
+    </nav>
+
+    <!-- ========== BREADCRUMB ========== -->
+    <section style="background-color: #f5f7fa; padding: 1rem 0;">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link">Students</a></li>
+                <li class="breadcrumb-item active">Study Resources</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ========== HERO ========== -->
+    <section style="background: linear-gradient(135deg, #1a3c6e 0%, #2196f3 100%); color: white; padding: 3rem 0; text-align: center;">
+        <div class="container">
+            <h1 class="animate-fade-in" style="color: white; margin-bottom: 1rem;">Study Resources</h1>
+            <p class="animate-fade-in-delayed" style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.9);">
+                Comprehensive Learning Materials
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== RESOURCES BY CLASS ========== -->
+    <section style="padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: #1a3c6e; margin-bottom: 2rem;">Resources by Class</h2>
+            
+            <!-- Class Selection Tabs -->
+            <div class="tabs" style="margin-bottom: 2rem; overflow-x: auto;">
+                <button class="tab-button active" onclick="showClass('primary')">Primary (I-V)</button>
+                <button class="tab-button" onclick="showClass('middle')">Middle (VI-VIII)</button>
+                <button class="tab-button" onclick="showClass('senior')">Senior (IX-XII)</button>
+            </div>
+
+            <!-- Primary Resources -->
+            <div id="primary" class="tab-content active">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div class="card reveal" style="border-left: 4px solid #2196f3;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #2196f3 0%, #64b5f6 100%);">
+                            <h4 style="margin: 0; color: white;">📚 Class I-V Notes</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Subject-wise comprehensive notes</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (2.5 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #28a745;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #28a745 0%, #66bb6a 100%);">
+                            <h4 style="margin: 0; color: white;">✏️ Practice Questions</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Chapter-wise practice problems</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (1.8 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #dc3545;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #dc3545 0%, #e57373 100%);">
+                            <h4 style="margin: 0; color: white;">🎯 Sample Papers</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Previous year and practice tests</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (3.2 MB)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Resources -->
+            <div id="middle" class="tab-content">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div class="card reveal" style="border-left: 4px solid #2196f3;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #2196f3 0%, #64b5f6 100%);">
+                            <h4 style="margin: 0; color: white;">📚 Class VI-VIII Notes</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">All subjects detailed notes with diagrams</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (4.5 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #28a745;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #28a745 0%, #66bb6a 100%);">
+                            <h4 style="margin: 0; color: white;">🧪 Lab Manuals</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Science experiment guides with procedures</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (2.1 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #f0a500;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #f0a500 0%, #ffc107 100%);">
+                            <h4 style="margin: 0; color: white;">📝 Sample Papers</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Board exam pattern sample papers with solutions</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (3.8 MB)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Senior Resources -->
+            <div id="senior" class="tab-content">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div class="card reveal" style="border-left: 4px solid #dc3545;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #dc3545 0%, #e57373 100%);">
+                            <h4 style="margin: 0; color: white;">📚 Class IX-XII Notes</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Science & Commerce stream notes</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (6.2 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #6f42c1;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #6f42c1 0%, #9c27b0 100%);">
+                            <h4 style="margin: 0; color: white;">🎯 Board Papers</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Last 10 years board exam papers</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (5.5 MB)</a>
+                        </div>
+                    </div>
+
+                    <div class="card reveal" style="border-left: 4px solid #17a2b8;">
+                        <div class="card-header" style="background: linear-gradient(135deg, #17a2b8 0%, #4dd0e1 100%);">
+                            <h4 style="margin: 0; color: white;">📖 Revision Guides</h4>
+                        </div>
+                        <div class="card-body">
+                            <p style="color: #6c757d; margin-bottom: 1rem;">Quick revision notes for board exams</p>
+                            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; font-size: 0.9rem;">Download (4.1 MB)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TIPS SECTION ========== -->
+    <section style="background-color: #f5f7fa; padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: #1a3c6e; margin-bottom: 2rem;">Study Tips</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">📝</div>
+                    <h3>Make Notes</h3>
+                    <p>Create your own concise notes while studying to improve retention and understanding.</p>
+                </div>
+
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Regular Practice</h3>
+                    <p>Solve practice problems regularly to master concepts and strengthen fundamentals.</p>
+                </div>
+
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Time Management</h3>
+                    <p>Plan your study schedule wisely and maintain consistency for better results.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Focus on Concepts</h3>
+                    <p>Understand concepts thoroughly rather than just memorizing answers.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">💬</div>
+                    <h3>Ask Questions</h3>
+                    <p>Don't hesitate to ask teachers or peers when you have doubts.</p>
+                </div>
+
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">😴</div>
+                    <h3>Proper Rest</h3>
+                    <p>Get adequate sleep and take regular breaks for better concentration and retention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content reveal">
+                <h2>Start Learning Effectively</h2>
+                <p>Download resources and track your academic progress</p>
+                <a href="index.html" class="btn btn-primary btn-large">Back to Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About School</h4>
+                    <p>SK Presidency Public School is dedicated to providing quality education and holistic development of students from Nursery to XII.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">f</a>
+                        <a href="#" class="social-link" title="Twitter">𝕏</a>
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="YouTube">▶</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../../pages/about/index.html">About Us</a></li>
+                        <li><a href="index.html">Student Portal</a></li>
+                        <li><a href="results.html">Results</a></li>
+                        <li><a href="assignments.html">Assignments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><strong>📍 Address:</strong><br>Odara, Sultanpur, UP 228001</p>
+                    <p><strong>📞 Phone:</strong><br>+91-8601735757</p>
+                    <p><strong>📧 Email:</strong><br>office@skpresidency.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Downloads</h4>
+                    <ul>
+                        <li><a href="study-resources.html">📚 Study Materials</a></li>
+                        <li><a href="results.html">📊 Results</a></li>
+                        <li><a href="assignments.html">📋 Assignments</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SK Presidency Public School. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/animations.js"></script>
+    
+    <script>
+        function showClass(className) {
+            // Hide all tab contents
+            document.getElementById('primary').classList.remove('active');
+            document.getElementById('middle').classList.remove('active');
+            document.getElementById('senior').classList.remove('active');
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(className).classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+          </html>
